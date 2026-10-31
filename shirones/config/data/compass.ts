@@ -49,7 +49,7 @@ export const compassData: CompassShelf[] = [
 				icon: "fa6-brands:github",
 			},
 			{
-				label: "cloudflare",
+				label: "Cloudflare",
 				href: "https://www.cloudflare.com/",
 				note: "CDN、DNS、WAF、SSL 等服务",
 				icon: "fa6-brands:cloudflare",
