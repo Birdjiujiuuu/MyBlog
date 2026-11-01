@@ -19,13 +19,13 @@ export const gamesConfig: GamesConfig = withUserConfig("games", {
 	categories: [
 		{
 			key: "open-world",
-			label: "Open World",
+			label: "开放世界",
 			icon: "material-symbols:explore-outline-rounded",
 			description: "Open-world adventures",
 		},
 		{
 			key: "sandbox",
-			label: "Sandbox",
+			label: "沙盒",
 			icon: "material-symbols:widgets-rounded",
 			description: "Building, crafting & creative worlds",
 		},
@@ -37,22 +37,28 @@ export const gamesConfig: GamesConfig = withUserConfig("games", {
 		},
 		{
 			key: "action",
-			label: "Action",
+			label: "动作",
 			icon: "material-symbols:swords-outline-rounded",
 			description: "Action, fighting & shooters",
 		},
 		{
 			key: "casual",
-			label: "Casual",
+			label: "休闲",
 			icon: "material-symbols:extension-outline-rounded",
 			description: "Cozy, casual & party games",
 		},
 		{
 			key: "music",
-			label: "Music",
+			label: "音乐",
 			icon: "material-symbols:genres-outline-rounded",
 			description: "Music & rhythm games",
 		},
+		{
+			key: "tower-defense",
+			label: "塔防",
+			icon: "material-symbols:security-outline-rounded",
+			description: "Tower defense & strategy games",
+		}
 	],
 	// disabledIds: [],
 });
