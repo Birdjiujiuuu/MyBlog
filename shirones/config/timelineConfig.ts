@@ -13,33 +13,33 @@ import { withUserConfig } from "@/utils/config-overlay.ts";
  * 注：时间线的具体节点数据（标题、日期、经历描述、要点列表、关联链接等）请在 `src/data/timeline.ts` 中维护。
  */
 export const timelineConfig: TimelineConfig = withUserConfig("timeline", {
-	enable: false,
+	enable: true,
 	title: "$t:timeline",
 	description: "$t:timelineBanner",
 	categories: [
 		{
 			key: "milestone",
-			label: "Milestones",
+			label: "里程碑",
 			icon: "material-symbols:flag-rounded",
 		},
 		{
 			key: "project",
-			label: "Projects",
+			label: "项目",
 			icon: "material-symbols:code-rounded",
 		},
 		{
 			key: "career",
-			label: "Career",
+			label: "职业",
 			icon: "material-symbols:work-rounded",
 		},
 		{
 			key: "education",
-			label: "Education",
+			label: "教育",
 			icon: "material-symbols:school-rounded",
 		},
 		{
 			key: "life",
-			label: "Life",
+			label: "生活",
 			icon: "material-symbols:favorite-rounded",
 		},
 	],

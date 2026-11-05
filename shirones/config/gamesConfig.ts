@@ -56,7 +56,7 @@ export const gamesConfig: GamesConfig = withUserConfig("games", {
 		{
 			key: "tower-defense",
 			label: "塔防",
-			icon: "material-symbols:security-outline-rounded",
+			icon: "material-symbols:security",
 			description: "Tower defense & strategy games",
 		}
 	],
