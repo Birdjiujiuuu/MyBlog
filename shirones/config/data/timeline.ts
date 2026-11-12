@@ -41,7 +41,7 @@ export const timelineData: TimelineItem[] = [
     ],
     tags: ["应用", "WinUI3"],
     links: [
-      { label: "Microsoft Store", url: "https://apps.microsoft.com/detail/9pbz97jbr98g", icon: "fa6-brands:microsoft" },
+      { label: "Microsoft Store", url: "https://apps.microsoft.com/detail/9pbz97jbr98g", icon: "fa7-brands:microsoft" },
     ],
     icon: "material-symbols:rocket-launch-rounded",
     featured: true,
@@ -59,7 +59,7 @@ export const timelineData: TimelineItem[] = [
     ],
     tags: ["应用", "WinUI3"],
     links: [
-      { label: "Github", url: "https://github.com/Birdjiujiuuu/MagicApp", icon: "fa6-brands:github" },
+      { label: "Github", url: "https://github.com/Birdjiujiuuu/MagicApp", icon: "fa7-brands:github" },
     ],
     icon: "material-symbols:rocket-launch-rounded",
     featured: true,
@@ -78,7 +78,7 @@ export const timelineData: TimelineItem[] = [
     ],
     tags: ["应用", "WinUI3"],            // 技术标签（可选）
     links: [                                // 关联链接（可选）
-      { label: "Github", url: "https://github.com/Birdjiujiuuu/MagicApp_Old", icon: "fa6-brands:github" },
+      { label: "Github", url: "https://github.com/Birdjiujiuuu/MagicApp_Old", icon: "fa7-brands:github" },
     ],
     icon: "material-symbols:rocket-launch-rounded",  // 节点图标
     featured: true,                         // 精选

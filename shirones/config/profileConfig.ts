@@ -12,24 +12,24 @@ export const profileConfig: ProfileConfig = withUserConfig("profile", {
 	links: [
 		{
 			name: "X",
-			icon: "fa6-brands:x-twitter", // Visit https://icones.js.org/ for icon codes
+			icon: "fa7-brands:x-twitter", // Visit https://icones.js.org/ for icon codes
 			// You will need to install the corresponding icon set if it's not already included
 			// `pnpm add @iconify-json/<icon-set-name>`
 			url: "https://x.com/birdjiujiuuu",
 		},
 		{
 			name: "Discord",
-			icon: "fa6-brands:discord",
+			icon: "fa7-brands:discord",
 			url: "https://discord.gg/F69ukFTY",
 		},
 		{
 			name: "Bilibili",
-			icon: "fa6-brands:bilibili",
+			icon: "fa7-brands:bilibili",
 			url: "https://space.bilibili.com/1796235433",
 		},
 		{
 			name: "GitHub",
-			icon: "fa6-brands:github",
+			icon: "fa7-brands:github",
 			url: "https://github.com/Birdjiujiuuu",
 		},
 	],

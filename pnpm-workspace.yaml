@@ -5,8 +5,14 @@ allowBuilds:
   sharp: true
 minimumReleaseAgeExclude:
   - '@iconify-json/simple-icons@1.2.102'
-  - astro@7.4.8
+  - astro@7.4.8 || 7.4.11
   - shirones@0.1.6
+  - '@astrojs/markdown-satteri@0.4.9'
+  - '@astrojs/runtime@0.1.1'
+  - '@astrojs/svelte-renderer@0.1.1'
+  - '@astrojs/svelte@9.1.5'
+  - '@astrojs/vite-plugin-astro@0.1.2'
+  - '@iconify-json/material-symbols@1.2.99'
 onlyBuiltDependencies:
   - esbuild
   - sharp
